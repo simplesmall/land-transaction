@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <h1>土地交易系统前端</h1>
+    <h1>登录页</h1>
     <input type="button" value="获取数据" @click="getData">
     <input type="button" value="更改数据" @click="setData">
     {{msg}}
