@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "axois": "0.0.1-security",
+    "element-ui": "^2.13.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
