@@ -11,11 +11,13 @@ Vue.prototype.$axios = axios
 
 axios.defaults.baseURL = '/api'
 
+import store from "./store/store";
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   components: { App },
+  store,
   template: '<App/>'
 })
 
