@@ -28,7 +28,6 @@
             <input type="button" value="getters" @click="involkeGet">
             {{msg}}
           </el-main>
-<!--          <Footer/>-->
           <el-footer>Footer</el-footer>
         </el-container>
       </el-container>

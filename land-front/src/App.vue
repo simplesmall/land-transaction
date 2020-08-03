@@ -16,8 +16,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
-    background-color: #E9EEF3;
+    /*color: #2c3e50;*/
+    /*background-color: #E9EEF3;*/
   }
   .el-header{
     padding: 0;
