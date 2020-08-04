@@ -13,7 +13,10 @@
     "axios": "^0.19.2",
     "axois": "0.0.1-security",
     "element-ui": "^2.13.2",
+    "font-awesome": "^4.7.0",
+    "swiper": "^6.1.1",
     "vue": "^2.5.2",
+    "vue-awesome-swiper": "^4.1.1",
     "vue-router": "^3.0.1",
     "vuex": "^3.5.1"
   },

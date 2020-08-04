@@ -15,6 +15,12 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI)
 
+import './thirdUtils/swiper.min.css'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+Vue.use(VueAwesomeSwiper)
+
+import 'font-awesome/css/font-awesome.min.css'
+
 import store from "./store/store";
 /* eslint-disable no-new */
 new Vue({

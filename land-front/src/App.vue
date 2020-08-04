@@ -16,13 +16,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
+    margin: -8px;
     /*color: #2c3e50;*/
     /*background-color: #E9EEF3;*/
-  }
-  .el-header{
-    padding: 0;
-  }
-  body {
-    margin: 0;
   }
 </style>
