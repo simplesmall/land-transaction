@@ -36,7 +36,12 @@
           {name:'Button', slideTextColor: 'background: #e91e63;', imgUrl:require("../assets/img/02-button.jpg"), demoUrl:'1'},
           {name:'Page', slideTextColor: 'background: #c3d41a;', imgUrl:require("../assets/img/03-Page.jpg"), demoUrl:'2'},
           {name:'Button', slideTextColor: 'background: #ff9800;', imgUrl:require("../assets/img/04-button.jpg"), demoUrl:'3'},
-          {name:'All-Button', slideTextColor: 'background: #c33ada;', imgUrl:require("../assets/img/05-All-Button.jpg"), demoUrl:'4'},
+          {name:'Button', slideTextColor: 'background: #c33ada;', imgUrl:require("../assets/img/05-All-Button.jpg"), demoUrl:'4'},
+          {name:'Button', slideTextColor: 'background: #2196f3;', imgUrl:require("../assets/img/06-Button.jpg"), demoUrl:'5'},
+          {name:'Clock', slideTextColor: 'background: #e91e63;', imgUrl:require("../assets/img/07-Clock.jpg"), demoUrl:'6'},
+          {name:'Share', slideTextColor: 'background: #c3d41a;', imgUrl:require("../assets/img/08-Share.jpg"), demoUrl:'7'},
+          {name:'SkillMaster', slideTextColor: 'background: #ff9800;', imgUrl:require("../assets/img/09-skills-meter.jpg"), demoUrl:'8'},
+          {name:'Smoke', slideTextColor: 'background: #c33ada;', imgUrl:require("../assets/img/11-Text-Smoke.jpg"), demoUrl:'9'},
         ],
         swiperOption: {
           effect:'coverflow',
