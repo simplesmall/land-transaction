@@ -14,6 +14,8 @@
     <FiveAllBtn v-else-if="choose ==4"></FiveAllBtn>
     <SixBtn v-else-if="choose ==5"></SixBtn>
     <SevenClock v-else-if="choose ==6"></SevenClock>
+    <EightShare v-else-if="choose ==7"></EightShare>
+    <NineMaster v-else-if="choose ==8"></NineMaster>
   </div>
 </template>
 
@@ -25,6 +27,8 @@
   import FiveAllBtn from "./FiveAllBtn";
   import SixBtn from "./SixBtn";
   import SevenClock from "./SevenClock";
+  import EightShare from "./EightShare";
+  import NineMaster from "./NineMaster";
 
   export default {
     name: "Test",
@@ -39,8 +43,8 @@
           {id: 4, name: 'FiveAllBtn'},
           {id: 5, name: 'SixBtn'},
           {id: 6, name: 'SevenClock'},
-          {id: 7, name: 'TwoBtn'},
-          {id: 7, name: 'TwoBtn'},
+          {id: 7, name: 'EightShare'},
+          {id: 8, name: 'NineMaster'},
           {id: 7, name: 'TwoBtn'},
           {id: 7, name: 'TwoBtn'},
           {id: 7, name: 'TwoBtn'},
@@ -73,6 +77,12 @@
         case '6':
           this.choose = SevenClock.id;
           break;
+        case '7':
+          this.choose = EightShare.id;
+          break;
+        case '8':
+          this.choose = NineMaster.id;
+          break;
         default:
           this.choose = 0
       }
@@ -84,7 +94,9 @@
       ThreePage,
       FourBtn,
       FiveAllBtn,
-      SevenClock
+      SevenClock,
+      EightShare,
+      NineMaster
     }
   }
 </script>
