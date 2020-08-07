@@ -41,7 +41,11 @@
           {name:'Clock', slideTextColor: 'background: #e91e63;', imgUrl:require("../assets/img/07-Clock.jpg"), demoUrl:'6'},
           {name:'Share', slideTextColor: 'background: #c3d41a;', imgUrl:require("../assets/img/08-Share.jpg"), demoUrl:'7'},
           {name:'SkillMaster', slideTextColor: 'background: #ff9800;', imgUrl:require("../assets/img/09-skills-meter.jpg"), demoUrl:'8'},
-          {name:'Smoke', slideTextColor: 'background: #c33ada;', imgUrl:require("../assets/img/11-Text-Smoke.jpg"), demoUrl:'9'},
+          {name:'Shader', slideTextColor: 'background: #c33ada;', imgUrl:require("../assets/img/10-3D-Shader.jpg"), demoUrl:'9'},
+          {name:'Smoke', slideTextColor: 'background: #2196f3;', imgUrl:require("../assets/img/11-Text-Smoke.jpg"), demoUrl:'10'},
+          {name:'Ripple', slideTextColor: 'background: #e91e63;', imgUrl:require("../assets/img/12-Water-Ripple.jpg"), demoUrl:'11'},
+          {name:'SendMessage', slideTextColor: 'background: #c3d41a;', imgUrl:require("../assets/img/13-SendMessage.jpg"), demoUrl:'12'},
+          {name:'Download', slideTextColor: 'background: #ff9800;', imgUrl:require("../assets/img/14-Download.jpg"), demoUrl:'13'},
         ],
         swiperOption: {
           effect:'coverflow',

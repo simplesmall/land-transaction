@@ -16,6 +16,11 @@
     <SevenClock v-else-if="choose ==6"></SevenClock>
     <EightShare v-else-if="choose ==7"></EightShare>
     <NineMaster v-else-if="choose ==8"></NineMaster>
+    <TenShader v-else-if="choose ==9"></TenShader>
+    <ElevenSmoke v-else-if="choose ==10"></ElevenSmoke>
+    <TwiveRipple v-else-if="choose ==11"></TwiveRipple>
+    <ThirteenSendMsg v-else-if="choose ==12"></ThirteenSendMsg>
+    <FourTeenDownload v-else-if="choose ==13"></FourTeenDownload>
   </div>
 </template>
 
@@ -29,6 +34,11 @@
   import SevenClock from "./SevenClock";
   import EightShare from "./EightShare";
   import NineMaster from "./NineMaster";
+  import TenShader from "./TenShader";
+  import ElevenSmoke from "./ElevenSmoke";
+  import TwiveRipple from "./TwiveRipple";
+  import ThirteenSendMsg from "./ThirteenSendMsg";
+  import FourTeenDownload from "./FourTeenDownload";
 
   export default {
     name: "Test",
@@ -45,10 +55,13 @@
           {id: 6, name: 'SevenClock'},
           {id: 7, name: 'EightShare'},
           {id: 8, name: 'NineMaster'},
-          {id: 7, name: 'TwoBtn'},
-          {id: 7, name: 'TwoBtn'},
-          {id: 7, name: 'TwoBtn'},
-          {id: 7, name: 'TwoBtn'},
+          {id: 9, name: 'TenShader'},
+          {id: 10, name: 'ElevenSmoke'},
+          {id: 11, name: 'TwiveRipple'},
+          {id: 12, name: 'ThirteenSendMsg'},
+          {id: 13, name: 'FourTeenDownload'},
+          {id: 11, name: 'TwiveRipple'},
+          {id: 11, name: 'TwiveRipple'},
         ]
       }
     },
@@ -83,6 +96,21 @@
         case '8':
           this.choose = NineMaster.id;
           break;
+        case '9':
+          this.choose = TenShader.id;
+          break;
+        case '10':
+          this.choose = ElevenSmoke.id;
+          break;
+        case '11':
+          this.choose = TwiveRipple.id;
+          break;
+        case '12':
+          this.choose = ThirteenSendMsg.id;
+          break;
+        case '13':
+          this.choose = FourTeenDownload.id;
+          break;
         default:
           this.choose = 0
       }
@@ -96,7 +124,12 @@
       FiveAllBtn,
       SevenClock,
       EightShare,
-      NineMaster
+      NineMaster,
+      TenShader,
+      ElevenSmoke,
+      TwiveRipple,
+      ThirteenSendMsg,
+      FourTeenDownload,
     }
   }
 </script>
